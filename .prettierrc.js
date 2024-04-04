@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   tabWidth: 2,
   semi: false, // 未尾分号, default:  true
   singleQuote: false, // 单引号 default: false
@@ -6,4 +6,4 @@ module.exports = {
   arrowParens: "avoid", // default: always
   proseWrap: "never",
   endOfLine: "auto", // default lf
-};
+}
